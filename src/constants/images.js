@@ -1,0 +1,27 @@
+import logo from '../assets/grs1.png';
+import logo_oac from '../assets/logo_oac.png';
+import logo_of from '../assets/logo_of.png';
+import spid from '../assets/spid.png';
+import spid2 from '../assets/spid2.png';
+import soac from '../assets/soac.png';
+import soac2 from '../assets/soac2.png';
+import sos from '../assets/sos.png';
+import sos2 from '../assets/sos2.png';
+import l_oac from '../assets/l_oac.png';
+import gs1 from '../assets/gs1.png';
+import gs2 from '../assets/gs2.png';
+import oa1 from '../assets/oa1.png';
+import oa2 from '../assets/oa2.png';
+import lhpid from '../assets/lhpid.png';
+import logo_hpid from '../assets/logo_hpid.png';
+import l_of from '../assets/l_of.png';
+import hero_pic from '../assets/grs3.png';
+import oflt from '../assets/grs2.png';
+import avatarIImg from "../assets/1.jpg";
+import avatarIIImg from "../assets/2.jpg";
+import avatarIIIImg from "../assets/3.jpg";
+import avatarIVImg from "../assets/4.png";
+import avatarVImg from "../assets/5.jpg";
+import grs4 from '../assets/grs4.png';
+
+export default { logo, logo_oac, logo_of, spid, spid2, soac, soac2, sos, sos2, l_oac, logo_hpid, lhpid, l_of, hero_pic, oflt, avatarIImg, avatarIIImg, avatarIIIImg, avatarIVImg, avatarVImg, grs4, oa1, oa2, gs1, gs2 };

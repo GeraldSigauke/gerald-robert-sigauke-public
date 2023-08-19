@@ -1,0 +1,63 @@
+import React from 'react';
+import { images } from '../constants';
+
+const HeroComponent = () => {
+  return (
+    <>
+      {/* <!-- Container for demo purpose --> */}
+      <div id="hero">
+        {/* <!-- Section: Design Block --> */}
+        <section class="mb-12">
+          <div
+            id="hero"
+            class="px-6 py-12 md:px-12 bg-gray-50 text-gray-800 dark:bg-gray-black dark:text-gray-800 text-center lg:text-left"
+          >
+            <div class="container mx-auto xl:px-32">
+              <div class="grid lg:grid-cols-2 gap-12 flex items-center">
+                <div class="mt-12 lg:mt-0">
+                  <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+                    Hi, I am Gerald <br />
+                    <span class="text-[#2c5282] text-3xl md:text-3xl xl:text-4xl">Frontend Developer</span>
+                  </h1>
+                  <p className="mb-12 text-gray-700">
+                  I am a Frontend Developer who is currently dipping his toes in the Backend side of things. I am currently working as a freelance developer, but I am open to getting hired for a full time gig.
+                  </p>
+                  <a
+                    class="inline-block px-7 py-3 mr-2 bg-[#2c5282] text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-white hover:text-[#2c5282] hover:shadow-lg focus:bg-white focus:text-[#2c5282] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-white active:text-[#2c5282] active:shadow-lg transition duration-150 ease-in-out"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="light"
+                    href="/cv.pdf"
+                    target="blank"
+                    role="button"
+                  >
+                   See My CV
+                  </a>
+                  <a
+                    class="inline-block px-7 py-3 bg-transparent text-[#2c5282] font-medium text-sm leading-snug uppercase rounded hover:text-white hover:bg-[#2c5282] focus:bg-[#2c5282] focus:text-white focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="light"
+                    href="#contactMe"
+                    role="button"
+                  >
+                    Let's Talk
+                  </a>
+                </div>
+                <div id="hero_pic_background" class="mb-12 lg:mb-0" style={{ borderRadius: "5px" }}>
+                  <img
+                    src={ images.hero_pic }
+                    class="w-full rounded-lg shadow-lg hover:scale-110"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* <!-- Section: Design Block --> */}
+      </div>
+      {/* <!-- Container for demo purpose --> */}
+    </>
+  );
+};
+
+export default HeroComponent;
