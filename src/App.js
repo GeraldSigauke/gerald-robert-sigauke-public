@@ -1,7 +1,7 @@
 import { createContext, useState } from 'react';
 import NavbarComponent from './components/NavbarComponent';
 import Home from './components/Home';
-import HeroComponent from './pages/HeroComponent';
+import HeroComponent from './components/HeroComponent';
 import About from './components/About';
 import AboutPage from './pages/AboutPage';
 import Résumé from './components/Résumé';
@@ -12,7 +12,7 @@ import Testimonials from './components/Testimonials';
 import TestimonialsPage from './pages/TestimonialsPage';
 import ContactMe from './components/ContactMe';
 import ContactPage from './pages/ContactPage';
-import FooterComponent from './pages/FooterComponent';
+import FooterComponent from './components/FooterComponent';
 import Skills from './components/Skills';
 import SkillsPage from './pages/SkillsPage';
 

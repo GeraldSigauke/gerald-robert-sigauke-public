@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import "./index.css";
-import { buttons, ps } from "../data";
-import { getPokemon, filterPokemon, getProject, filterProject } from "../services/services";
+import { buttons } from "../data";
+import { getProject, filterProject } from "../services/services";
 export default function FilterPage() {
   const [filtredProject, setFiltredProject] = useState(null);
   useEffect(() => {

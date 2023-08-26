@@ -18,6 +18,27 @@
 
 /** Hero Page Starts Here */
 
+.typewriter {
+  display: inline-block;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+    typing 2s steps(15),
+    cursor .4s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+  50% { border-color: transparent; }
+}
+
+/* typing effect */
+@keyframes typing {
+  from { width: 0 }
+}
+
 /** Hero Page Ends Here */
 
 /** About Page Starts Here */
@@ -241,6 +262,30 @@ body {
   color: rgb(73, 73, 73);
 }
 
+#light #blue-button{
+  background-color: #2c5282;
+  color: #FFFFFF;
+}
+
+#light #white-button{
+  background-color: #FFFFFF;
+  color: #2c5282;
+}
+
+#light #blue-button:hover{
+  background-color: #FFFFFF;
+  color: #2c5282;
+  transition: 0.3s;
+}
+
+#light #white-button:hover{
+  background-color: #2c5282;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+
+
 #light #text {
     color: #55554d;
 }
@@ -325,6 +370,28 @@ body {
   background: #101010;
   background: linear-gradient(270deg, #101010, #010101);
   color: gray;
+}
+
+#dark #white-button{
+  background-color: #000;
+  color: #2c5282;
+}
+
+#dark #blue-button{
+  background-color: #2c5282;
+  color: #000;
+}
+
+#dark #white-button:hover{
+  background-color: #2c5282;
+  color: #000;
+  transition: 0.3s;
+}
+
+#dark #blue-button:hover{
+  background-color: #000;
+  color: #2c5282;
+  transition: 0.3s;
 }
 
 #dark #text {

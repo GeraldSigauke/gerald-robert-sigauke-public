@@ -36,6 +36,7 @@ const ContactPage = () => {
               </div>
               <div class="text-center">
                 <button
+                  id='blue-button'
                   class="hover:shadow-form rounded-md bg-[#2c5282] py-3 px-8 text-base font-semibold text-white outline-none"
                   type='submit'
                 >

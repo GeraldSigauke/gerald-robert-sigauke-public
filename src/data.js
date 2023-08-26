@@ -42,6 +42,7 @@ export const ps = [
     category: 'landingPages',
     desc: 'A Landing Page For A Fund Raising Organisation. I used React Js, Tailwind Css, Javascript, CSS and React Icons.',
     url: 'https://hazyviewpetsindistress.netlify.app/',
+    id: 'blue-button'
   },
   {
     id: 2,
@@ -51,6 +52,7 @@ export const ps = [
     category: 'landingPages',
     desc: 'A Landing Page For An Afterschool Care Business. I used React Js, Tailwind Css, Javascript, CSS and React Icons.',
     url: 'https://oliestaafterschoolcare.netlify.app/',
+    id: 'blue-button'
   },
   {
     id: 3,
@@ -61,6 +63,7 @@ export const ps = [
     category: 'landingPages',
     desc: 'A Landing Page For A Software Development Business. I used React Js, Tailwind Css, Javascript, CSS and React Icons.',
     url: 'https://oliestasoftworks.netlify.app/',
+    id: 'blue-button'
   },
   {
     id: 4,
@@ -70,6 +73,7 @@ export const ps = [
     category: 'landingPages',
     desc: 'My old personal portfolio web app. I used React Js, Framer Motion, Javascript and SCSS for the frontend. I used Sanity IO for the backend.',
     url: 'https://geraldsigauke.netlify.app/',
+    id: 'blue-button'
   },
   {
     id: 5,
@@ -79,6 +83,7 @@ export const ps = [
     category: 'anyOtherWebApps',
     desc: 'A dashboard or an admin section for a web app. I used React Js, Material UI, React Circular Progreesbar, Recharts, Javascript and SASS.',
     url: 'https://oliestaadmin.netlify.app/',
+    id: 'blue-button'
   },
 ];
 
@@ -225,22 +230,22 @@ export const buttons = [
   {
     name: 'All',
     value: 'all',
-    marginBottom: 'bg-[#2c5282] hover:bg-blue-700 text-white font-bold px-4 py-2 rounded ml-[0.5%] mr-[0.5%] mb-1 lg:mb-10'
+    marginBottom: 'bg-[#2c5282] hover:bg-blue-800 text-white font-bold px-4 py-2 rounded ml-[0.5%] mr-[0.5%] mb-1 lg:mb-10'
   },
   {
     name: 'Landing Pages',
     value: 'landingPages',
-    marginBottom: 'bg-[#2c5282] hover:bg-blue-700 text-white font-bold px-4 py-2 rounded ml-[0.5%] mr-[0.5%] mb-1 lg:mb-10'
+    marginBottom: 'bg-[#2c5282] hover:bg-blue-800 text-white font-bold px-4 py-2 rounded ml-[0.5%] mr-[0.5%] mb-1 lg:mb-10'
   },
   {
     name: 'Ecommerce Sites',
     value: 'ecommerceSites',
-    marginBottom: 'bg-[#2c5282] hover:bg-blue-700 text-white font-bold px-4 py-2 rounded ml-[0.5%] mr-[0.5%] mb-1 lg:mb-10'
+    marginBottom: 'bg-[#2c5282] hover:bg-blue-800 text-white font-bold px-4 py-2 rounded ml-[0.5%] mr-[0.5%] mb-1 lg:mb-10'
   },
   {
     name: 'Any Other Web Apps',
     value: 'anyOtherWebApps',
-    marginBottom: 'bg-[#2c5282] hover:bg-blue-700 text-white font-bold px-4 py-2 rounded ml-[0.5%] mr-[0.5%] mb-10 lg:mb-10'
+    marginBottom: 'bg-[#2c5282] hover:bg-blue-800 text-white font-bold px-4 py-2 rounded ml-[0.5%] mr-[0.5%] mb-10 lg:mb-10'
   },
 ];
 
