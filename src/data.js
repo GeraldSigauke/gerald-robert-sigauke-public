@@ -41,8 +41,7 @@ export const ps = [
     title: 'PETS IN DISTRESS',
     category: 'landingPages',
     desc: 'A Landing Page For A Fund Raising Organisation. I used React Js, Tailwind Css, Javascript, CSS and React Icons.',
-    url: 'https://hazyviewpetsindistress.netlify.app/',
-    id: 'blue-button'
+    url: 'https://hazyviewpetsindistress.netlify.app/'
   },
   {
     id: 2,
@@ -51,8 +50,7 @@ export const ps = [
     title: 'OLIESTA AFTERSCHOOL CARE',
     category: 'landingPages',
     desc: 'A Landing Page For An Afterschool Care Business. I used React Js, Tailwind Css, Javascript, CSS and React Icons.',
-    url: 'https://oliestaafterschoolcare.netlify.app/',
-    id: 'blue-button'
+    url: 'https://oliestaafterschoolcare.netlify.app/'
   },
   {
     id: 3,
@@ -62,8 +60,7 @@ export const ps = [
     title: 'OLIESTA SOFTWORKS',
     category: 'landingPages',
     desc: 'A Landing Page For A Software Development Business. I used React Js, Tailwind Css, Javascript, CSS and React Icons.',
-    url: 'https://oliestasoftworks.netlify.app/',
-    id: 'blue-button'
+    url: 'https://oliestasoftworks.netlify.app/'
   },
   {
     id: 4,
@@ -72,8 +69,7 @@ export const ps = [
     title: 'GERALD SIGAUKE',
     category: 'landingPages',
     desc: 'My old personal portfolio web app. I used React Js, Framer Motion, Javascript and SCSS for the frontend. I used Sanity IO for the backend.',
-    url: 'https://geraldsigauke.netlify.app/',
-    id: 'blue-button'
+    url: 'https://geraldsigauke.netlify.app/'
   },
   {
     id: 5,
@@ -82,35 +78,7 @@ export const ps = [
     title: 'OLIESTA ADMIN',
     category: 'anyOtherWebApps',
     desc: 'A dashboard or an admin section for a web app. I used React Js, Material UI, React Circular Progreesbar, Recharts, Javascript and SASS.',
-    url: 'https://oliestaadmin.netlify.app/',
-    id: 'blue-button'
-  },
-];
-
-export const lps = [
-  {
-    id: 1,
-    img: images.spid,
-    img2: images.spid2,
-    title: 'PETS IN DISTRESS',
-    desc: 'A Landing Page For A Fund Raising Organisation. I used React Js, Tailwind Css, Javascript, CSS, HTML and React Icons.',
-    url: 'https://hazyviewpetsindistress.netlify.app/',
-  },
-  {
-    id: 2,
-    img: images.soac,
-    img2: images.soac2,
-    title: 'OLIESTA AFTERSCHOOL CARE',
-    desc: 'A Landing Page For An Afterschool Care Business. I used React Js, Tailwind Css, Javascript, CSS, HTML and React Icons.',
-    url: 'https://oliestaafterschoolcare.netlify.app/',
-  },
-  {
-    id: 3,
-    img: images.sos,
-    img2: images.sos2,
-    title: 'OLIESTA SOFTWORKS',
-    desc: 'A Landing Page For A Software Development Business. I used React Js, Tailwind Css, Javascript, CSS, HTML and React Icons.',
-    url: 'https://oliestasoftworks.netlify.app/',
+    url: 'https://oliestaadmin.netlify.app/'
   },
 ];
 
@@ -137,92 +105,8 @@ export const testimonials = [
     name: 'Stellah',
     profession: 'CEO',
     testimony:
-      'I am pleased with the work Gerald is doing for us. We would be lost without it.',
+      'I am pleased with the work Gerald is doing for us.',
     rating: '5',
-  },
-];
-
-export const lpp = [
-  {
-    id: 1,
-    point: 'Up To Ten Pages',
-  },
-  {
-    id: 2,
-    point: 'Domain Registration',
-  },
-  {
-    id: 3,
-    point: 'Plus Hosting At R50.00 Per Month',
-  },
-];
-
-export const ecp = [
-  {
-    id: 1,
-    point: 'Unlimited Content',
-  },
-  {
-    id: 2,
-    point: 'Domain Registration',
-  },
-  {
-    id: 3,
-    point: 'Fully Dynamic',
-  },
-  {
-    id: 4,
-    point: 'Plus Hosting At R150.00 Per Month',
-  },
-];
-
-export const mcsp = [
-  {
-    id: 1,
-    point: 'Up To Ten Pages',
-  },
-  {
-    id: 2,
-    point: 'Domain Registration',
-  },
-  {
-    id: 3,
-    point: 'Fully Dynamic',
-  },
-  {
-    id: 4,
-    point: 'Plus Hosting At R100.00 Per Month',
-  },
-];
-
-export const pokemons = [
-  {
-    id: 1,
-    nome: 'Eevee',
-    category: 'normal',
-    registro: 133,
-    CP: 300,
-  },
-  {
-    id: 2,
-    nome: 'Charmander',
-    category: 'fire',
-    registro: 123,
-    CP: 500,
-  },
-  {
-    id: 3,
-    nome: 'Charizard',
-    category: 'fire',
-    registro: 123,
-    CP: 500,
-  },
-  {
-    id: 4,
-    nome: 'Pikachu',
-    category: 'eletric',
-    registro: 63,
-    CP: 350,
   },
 ];
 

@@ -1,16 +1,4 @@
-import { pokemons, ps } from '../data';
-
-export function getPokemon() {
-  const pokemonList = pokemons;
-  return pokemonList;
-}
-
-export function filterPokemon(pokeType) {
-  let filteredPokemon = getPokemon().filter(
-    (type) => type.category === pokeType
-  );
-  return filteredPokemon;
-}
+import { ps } from '../data';
 
 export function getProject() {
   const projectList = ps;

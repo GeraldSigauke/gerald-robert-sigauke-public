@@ -17,11 +17,6 @@ import logo_hpid from '../assets/logo_hpid.png';
 import l_of from '../assets/l_of.png';
 import hero_pic from '../assets/grs3.png';
 import oflt from '../assets/grs2.png';
-import avatarIImg from "../assets/1.jpg";
-import avatarIIImg from "../assets/2.jpg";
-import avatarIIIImg from "../assets/3.jpg";
-import avatarIVImg from "../assets/4.png";
-import avatarVImg from "../assets/5.jpg";
 import grs4 from '../assets/grs4.png';
 
-export default { logo, logo_oac, logo_of, spid, spid2, soac, soac2, sos, sos2, l_oac, logo_hpid, lhpid, l_of, hero_pic, oflt, avatarIImg, avatarIIImg, avatarIIIImg, avatarIVImg, avatarVImg, grs4, oa1, oa2, gs1, gs2 };
+export default { logo, logo_oac, logo_of, spid, spid2, soac, soac2, sos, sos2, l_oac, logo_hpid, lhpid, l_of, hero_pic, oflt, grs4, oa1, oa2, gs1, gs2 };
