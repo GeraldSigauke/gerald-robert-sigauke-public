@@ -161,6 +161,7 @@ export const contactField = [
     name2: 'name',
     id2: 'name',
     placeholder2: 'Full Name',
+    action: ''
   },
   {
     id: 2,
@@ -171,6 +172,7 @@ export const contactField = [
     name2: 'email',
     id2: 'email',
     placeholder2: 'example@domain.com',
+    action: 'https://formsubmit.co/oliestasoftworks@gmail.com'
   },
   {
     id: 3,
@@ -181,6 +183,7 @@ export const contactField = [
     name2: 'subject',
     id2: 'subject',
     placeholder2: 'Enter your subject',
+    action: ''
   },
 ];
 
