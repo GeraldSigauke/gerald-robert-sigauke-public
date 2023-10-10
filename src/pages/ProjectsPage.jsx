@@ -66,16 +66,27 @@ const ProjectsPage = () => {
                 </div>
                 <div class="p-6">
                   <h5 class="font-bold text-lg mb-3">{ type.title }</h5>
-                  <p class="mb-4 pb-2">{ type.desc }</p>
-                  <a
-                    href={ type.url } target="blank"
-                    data-mdb-ripple="true"
-                    data-mdb-ripple-color="light"
-                    class="inline-block px-6 py-2.5 bg-[#2c5282] text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:text-[#2c5282] hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                    id={ type.id }
-                  >
-                    Visit
-                  </a>
+                  <p class="mb-4 pb-2">{ type.desc }</p>            
+                  <div className="flex justify-center gap-x-4">
+                    <a
+                      href={ type.url } target="blank"
+                      data-mdb-ripple="true"
+                      data-mdb-ripple-color="light"
+                      class="inline-block px-6 py-2.5 bg-[#2c5282] text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:text-[#2c5282] hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      id={ type.id }
+                    >
+                      Demo
+                    </a>
+                    <a
+                      href={ type.url2 } target="blank"
+                      data-mdb-ripple="true"
+                      data-mdb-ripple-color="light"
+                      class="inline-block px-6 py-2.5 bg-[#2c5282] text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:text-[#2c5282] hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      id={ type.id }
+                    >
+                      GitHub
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

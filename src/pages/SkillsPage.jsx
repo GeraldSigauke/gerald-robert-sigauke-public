@@ -68,9 +68,9 @@ const SkillsPage = () => {
                   <FaReact className='mr-3 w-6 h-6 hover:text-[000080]' />
                   <FaNodeJs className='mr-3 w-6 h-6 hover:text-[#303030]' />
                   <SiTailwindcss className='mr-3 w-6 h-6 hover:text-[#667eea]' />
+                  <TbBrandReactNative className='mr-3 w-6 h-6 hover:text-[#00ffff]' />
                   <FaSass className='mr-3 w-6 h-6 hover:text-[#ff69b4]' />
-                  <TbBrandBootstrap className='mr-3 w-6 h-6 hover:text-[#3b71ca]' />
-                  <TbBrandReactNative className='w-6 h-6 hover:text-[#00ffff]' />
+                  <TbBrandBootstrap className='w-6 h-6 hover:text-[#3b71ca]' />
                   {/* <TbBrandNextjs className='mr-3 w-6 h-6' /> */}
                 </p>
               </div>
@@ -91,13 +91,13 @@ const SkillsPage = () => {
                   <SkillBar name="Tailwind CSS" level={85} color="#667eea" />
                 </div>
                 <div className="mb-2">
+                  <SkillBar name="React Native" level={55} color="#00ffff" />
+                </div>
+                <div className="mb-2">
                   <SkillBar name="SCSS" level={50} color="#ff69b4" />
                 </div>
                 <div className="mb-2">
                   <SkillBar name="Bootstrap" level={50} color="#3b71ca" />
-                </div>
-                <div className="mb-2">
-                  <SkillBar name="React Native" level={25} color="#00ffff" />
                 </div>
               </div>
 

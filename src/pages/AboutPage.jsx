@@ -32,13 +32,13 @@ const AboutPage = () => {
                     <TbBrandCss3 className='mr-3 w-6 h-6' />
                   </p>
                   <p class="text-gray-500 mb-6">
-                    Hi there. My name is Gerald. I am a frontend web developer who is currently taking up backend web developement. I love making beautiful web apps which meet both the user and the client's neeeds.
+                    Hi there. My name is Gerald. I am a frontend web developer who is currently taking up Mobile App development and Backend Web development. I love making beautiful web apps which meet both the user and the client's neeeds.
                   </p>
                   <p class="text-gray-500 mb-6">
                     I have a Bachelors Degree in Computer Science. I have been coding for the past five years -- the last of which was spent learning React Js and the rest of the MERN stack. My desire is to be the best there is at making web apps and mobile apps.
                   </p>
                   <p class="text-gray-500">
-                    My weapons of choice are Mongo DB, Express Js, React, Node Js and Tailwind CSS. Obviously, this means that I know HTML, CSS and Javascript at a more than decent level. In the future, I wish to take up Typescript and React Native. It is worth noting that, prior to taking up the MERN stack, I -- among many other things -- learned SQL, PHP, Python and Java.
+                    My weapons of choice are Mongo DB, Express Js, React, Node Js and Tailwind CSS. Obviously, this means that I know HTML, CSS and Javascript at a more than decent level. Right now, I am mastering React Native. In the future, I wish to take up Typescript and React Native. It is worth noting that, prior to taking up the MERN stack, I -- among many other things -- learned SQL, PHP, XML, Python and Java.
                   </p>
                 </div>
               </div>

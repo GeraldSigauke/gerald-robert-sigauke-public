@@ -24,7 +24,7 @@ const HeroComponent = () => {
                     <span className="text-[#2c5282] text-3xl md:text-3xl xl:text-4xl">Frontend Developer</span>
                   </h1>
                   <p className="mb-12 text-gray-700">
-                  I am a Frontend Developer who is currently dipping his toes in the Backend side of things. I am currently working as a freelance developer, but I am open to getting hired for a full time gig.
+                  I am a Frontend Developer who is currently dipping his toes in Mobile App development and Backend Web development. I am currently working as a freelance developer, but I am open to getting hired for a full time gig.
                   </p>
                   <a
                     id='blue-button'
