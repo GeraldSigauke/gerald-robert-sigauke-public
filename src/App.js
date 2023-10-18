@@ -15,6 +15,7 @@ import ContactPage from './pages/ContactPage';
 import FooterComponent from './components/FooterComponent';
 import Skills from './components/Skills';
 import SkillsPage from './pages/SkillsPage';
+import FastTravelComponents from './components/FastTravelComponents';
 
 // Dark and Light Theme Stuff:
 
@@ -31,6 +32,7 @@ function App() {
     <>
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
         <div id={theme}>
+          <div id='origin' className=""></div>
           <NavbarComponent />
           <Home />
           <HeroComponent />
@@ -47,6 +49,7 @@ function App() {
           <ContactMe />
           <ContactPage />
           <FooterComponent />
+          <FastTravelComponents />
         </div>
       </ThemeContext.Provider>
     </>

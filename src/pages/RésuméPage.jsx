@@ -3,7 +3,7 @@ import { FaGraduationCap } from 'react-icons/fa';
 import { MdOutlineWork } from 'react-icons/md';
 
 const EducationDetails = ({ degree, university, universityLink, time, address, work }) => {
-  return <li className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+  return <li className='my-8 first:mt-0 last:mb-0 w-[80%] mx-auto flex flex-col items-center justify-between'>
     <div>
       <h3 className='capitalize font-bold text-large text-gray-500'>{ degree }&nbsp;<a className=' text-[#2c5282]' href={ universityLink } target='blank'>@{ university }</a></h3>
       <span className='capitalize font-medium text-gray-400'>
@@ -17,7 +17,7 @@ const EducationDetails = ({ degree, university, universityLink, time, address, w
 }
 
 const ExperienceDetails = ({ position, company, companyLink, time, address, work }) => {
-  return <li className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+  return <li className='my-8 first:mt-0 last:mb-0 w-[80%] mx-auto flex flex-col items-center justify-between'>
     <div>
       <h3 className='capitalize font-bold text-large text-gray-500'>{ position }&nbsp;<a className=' text-[#2c5282]' href={ companyLink } target='blank'>@{ company }</a></h3>
       <span className='capitalize font-medium text-gray-400'>
@@ -54,16 +54,20 @@ const RésuméPage = () => {
                     </div>
                   </p>
 
-                  <ul className=''>
-                    <EducationDetails 
-                      degree="Bachelors Degree in Computer Science"
-                      university="University of the People"
-                      universityLink="https://wwww.uopeople.edu"
-                      time="2017-2022"
-                      address="595 E. Colorado Blvd. Suite 623, Pasadena, CA 91101"
-                      work="Relevent Coursework includes Programming Fundermentals, Programming 2, Databases 1, Databases 2, Web Programming 1, Web Programming 2, Software Engineering 1, Software Engineering 2, Data Structures, Comparative Programming Languages, Information Retrieval and Mobile Applications"
-                    />
-                  </ul>
+                  <div className="pl-6">
+                    <div className="border-l-2">
+                      <ul className=''>
+                        <EducationDetails 
+                          degree="Bachelors Degree in Computer Science"
+                          university="University of the People"
+                          universityLink="https://wwww.uopeople.edu"
+                          time="2017-2022"
+                          address="595 E. Colorado Blvd. Suite 623, Pasadena, CA 91101"
+                          work="Relevent Coursework includes Programming Fundermentals, Programming 2, Databases 1, Databases 2, Web Programming 1, Web Programming 2, Software Engineering 1, Software Engineering 2, Data Structures, Comparative Programming Languages, Information Retrieval and Mobile Applications"
+                        />
+                      </ul>
+                    </div>
+                  </div>
 
                 </div>
               </div>
@@ -81,16 +85,20 @@ const RésuméPage = () => {
                     </div>
                   </p>
 
-                  <ul className=''>
-                    <ExperienceDetails 
-                      position="Frontend Web Developer"
-                      company="Oliesta Softworks"
-                      companyLink="https://oliestasoftworks.netlify.app"
-                      time="2022-present"
-                      address="Hazyview, 1242, Mpumalanga, South Africa"
-                      work="Worked as a freelance frontend web developer. Improved the visibility and brand recognition of multiple businesses and organisations such as Oliesta Fashions, Hazyview Pets in Distress, Oliesta Afterschool Care, etc. The reported average increase in the number of customers/ clients/ visitors in the first month was seventy eight percent."
-                    />
-                  </ul>
+                  <div className="pl-6">
+                    <div className="border-l-2">
+                      <ul className=''>
+                        <ExperienceDetails 
+                          position="Frontend Web Developer"
+                          company="Oliesta Softworks"
+                          companyLink="https://oliestasoftworks.netlify.app"
+                          time="2022-present"
+                          address="Hazyview, 1242, Mpumalanga, South Africa"
+                          work="Worked as a freelance frontend web developer. Improved the visibility and brand recognition of multiple businesses and organisations such as Oliesta Fashions, Hazyview Pets in Distress, Oliesta Afterschool Care, etc. The reported average increase in the number of customers/ clients/ visitors in the first month was seventy eight percent."
+                        />
+                      </ul>
+                    </div>
+                  </div>
 
                 </div>
               </div>

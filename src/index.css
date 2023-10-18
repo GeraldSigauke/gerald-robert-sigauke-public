@@ -25,6 +25,52 @@
 
 /* Navbar Component Ends Here */
 
+
+#light #ft-inner {
+  border-radius: 50%;
+  background-color: #2C5282; 
+}
+
+#dark #ft-inner {
+  border-radius: 50%;
+  background-color: #2C5282; 
+}
+
+#light #ft-inner:hover {
+  border-radius: 50%;
+  background-color: #FFFFFF;  
+  transition: 0.3s;
+}
+
+#dark #ft-inner:hover {
+  border-radius: 50%;
+  background-color: #000000;  
+  transition: 0.3s;
+}
+
+#light #ft-outer {
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+#dark #ft-outer {
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+#light #ft-outer:hover {
+  border-radius: 50%;
+  background-color: #2C5282;  
+  transition: 0.3s;
+}
+
+#dark #ft-outer:hover {
+  border-radius: 50%;
+  background-color:   #2C5282;
+  transition: 0.3s;
+}
+
+
 /** Hero Component Starts Here */
 
 .typewriter {

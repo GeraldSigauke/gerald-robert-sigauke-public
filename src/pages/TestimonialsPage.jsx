@@ -187,23 +187,23 @@ const TestimonialsPage = () => {
               </div>
             </SwiperSlide>  
 
-            <SwiperSlide id="swiper-slide" className="swiper-slide">
-              <div
-                className="pb-7"
-                style={{
-                  paddingRight: 20,
-                  paddingLeft: 20,
-                }}
-              >
-                <div className="testimonials-profile-circle mb-6">
-                  <img
-                    src={ images.grs4 }
-                    alt="testimonial-avatar"
-                    className="testimonial-avatar text-center"
-                  />
-                </div>
-                <h5 class="text-lg font-bold mb-4 text-gray-700">Gerald</h5>
-                <h6 class="font-medium text-[#2c5282] mb-4">Front End Web Developer</h6>
+          <SwiperSlide id="swiper-slide" className="swiper-slide">
+            <div
+              className="pb-7"
+              style={{
+                paddingRight: 20,
+                paddingLeft: 20,
+              }}
+            >
+              <div className="testimonials-profile-circle mb-6">
+                <img
+                  src={ images.lom2 }
+                  alt="testimonial-avatar"
+                  className="testimonial-avatar text-center"
+                />
+              </div>
+                <h5 class="text-lg font-bold mb-4 text-gray-700">Oliver</h5>
+                <h6 class="font-medium text-[#2c5282] mb-4">CEO</h6>
                 <p class="mb-4 text-gray-500">
                   <svg
                     aria-hidden="true"
@@ -220,11 +220,50 @@ const TestimonialsPage = () => {
                       d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
                     ></path>
                   </svg>
-                  Not bad! If I do say so myself.
+                  We are more than pleased with the work Gerald is doing for us.
                 </p>
                 <FiveStars />
               </div>
             </SwiperSlide>
+
+          <SwiperSlide id="swiper-slide" className="swiper-slide">
+            <div
+              className="pb-7"
+              style={{
+                paddingRight: 20,
+                paddingLeft: 20,
+              }}
+            >
+              <div className="testimonials-profile-circle mb-6">
+                <img
+                  src={ images.grs4 }
+                  alt="testimonial-avatar"
+                  className="testimonial-avatar text-center"
+                />
+              </div>
+              <h5 class="text-lg font-bold mb-4 text-gray-700">Gerald</h5>
+              <h6 class="font-medium text-[#2c5282] mb-4">Front End Web Developer</h6>
+              <p class="mb-4 text-gray-500">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="quote-left"
+                  class="w-6 pr-2 inline-block"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+                Not bad! If I do say so myself.
+              </p>
+              <FiveStars />
+            </div>
+          </SwiperSlide>
             
           </Swiper>
 
@@ -239,8 +278,11 @@ const TestimonialsPage = () => {
                 <div style={{ width: "262.5px" }} className="mx-4 grayscale">
                   <img src={ images.logo_oac } alt="brand" />
                 </div>
-                <div style={{ width: "411px" }} className="mx-4 grayscale">
+                <div style={{ width: "380px" }} className="mx-4 grayscale">
                   <img src={ images.logo_of } alt="brand" />
+                </div>
+                <div style={{ width: "170px" }} className="mx-4 grayscale">
+                  <img src={ images.logo_om2 } alt="brand" />
                 </div>
                 <div style={{ width: "225px" }} className="mx-4 grayscale">
                   <img src={ images.logo_hpid } alt="brand" />
@@ -248,8 +290,11 @@ const TestimonialsPage = () => {
                 <div style={{ width: "262.5px" }} className="mx-4 grayscale">
                   <img src={ images.logo_oac } alt="brand" />
                 </div>
-                <div style={{ width: "411px" }} className="mx-4 grayscale">
+                <div style={{ width: "380px" }} className="mx-4 grayscale">
                   <img src={ images.logo_of } alt="brand" />
+                </div>
+                <div style={{ width: "170px" }} className="mx-4 grayscale">
+                  <img src={ images.logo_om2 } alt="brand" />
                 </div>
             </Marquee>
           </div>

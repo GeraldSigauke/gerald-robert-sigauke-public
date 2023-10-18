@@ -20,5 +20,7 @@ import l_of from '../assets/l_of.png';
 import hero_pic from '../assets/grs3.png';
 import oflt from '../assets/grs2.png';
 import grs4 from '../assets/grs4.png';
+import lom2 from '../assets/lom2.png';
+import logo_om2 from '../assets/logo_om2.png';
 
-export default { logo, logo_oac, logo_of, spid, spid2, soac, soac2, sos, sos2, sof, sof2, l_oac, logo_hpid, lhpid, l_of, hero_pic, oflt, grs4, oa1, oa2, gs1, gs2 };
+export default { logo, logo_oac, logo_of, spid, spid2, soac, soac2, sos, sos2, sof, sof2, l_oac, logo_hpid, lhpid, l_of, hero_pic, oflt, grs4, oa1, oa2, gs1, gs2, lom2, logo_om2 };

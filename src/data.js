@@ -91,7 +91,7 @@ export const ps = [
     title: 'OLIESTA FASHIONS',
     category: 'ecommerceSites',
     desc: 'The frontend portion for a web app. I used React Js, Bootstrap 5, React-Icons, React-Skills and React-Fast-Marquee. The GitHub repository for this project is public. You can access it.',
-    url: 'https://oliestaadmin.netlify.app/',
+    url: 'https://oliestafashions.netlify.app/',
     url2: 'https://github.com/GeraldSigauke/oliesta-fashions-master'
   },
 ];
@@ -120,6 +120,15 @@ export const testimonials = [
     profession: 'CEO',
     testimony:
       'I am pleased with the work Gerald is doing for us.',
+    rating: '5',
+  },
+  {
+    id: 4,
+    img: images.l_of,
+    name: 'Oliver',
+    profession: 'CEO',
+    testimony:
+      'We are more than pleased with the work Gerald is doing for us.',
     rating: '5',
   },
 ];
