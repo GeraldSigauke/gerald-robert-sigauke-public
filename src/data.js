@@ -8,13 +8,13 @@ export const navLink = [
   },
   {
     id: 2,
-    link: 'Résumé',
-    url: '#résumé',
+    link: 'Skills',
+    url: '#skills',
   },
   {
     id: 3,
-    link: 'Skills',
-    url: '#skills',
+    link: 'Résumé',
+    url: '#résumé',
   },
   {
     id: 4,

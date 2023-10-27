@@ -30,9 +30,9 @@ const TestimonialsPage = () => {
   return (
     <>
       {/* <!-- Container for demo purpose --> */}
-      <div class="container my-24 px-6 mx-auto">
+      <div class="mt-12 px-6 mx-auto">
 
-        <section class="mb-20 text-gray-700 text-center">
+        <section class="mb-0 text-gray-700 text-center">
 
           <h2 class="text-3xl font-bold mb-12">Testimonials</h2>
           
@@ -307,3 +307,4 @@ const TestimonialsPage = () => {
 }
 
 export default TestimonialsPage
+

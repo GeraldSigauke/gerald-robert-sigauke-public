@@ -5,7 +5,7 @@ import { contactField } from "../data";
 const ContactPage = () => {
   return (
     <>
-      <div class="container my-24 px-6 mx-auto" id='contactus'>
+      <div class="container px-6 mx-auto" id='contactus'>
         <h2 class="text-3xl font-bold text-center pt-5 text-gray-700 dark:text-gray-700">
           Contact <u class="text-[#2c5282] dark:text-[#2c5282]">Me</u>
         </h2>

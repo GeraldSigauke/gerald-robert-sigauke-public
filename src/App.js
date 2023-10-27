@@ -16,6 +16,7 @@ import FooterComponent from './components/FooterComponent';
 import Skills from './components/Skills';
 import SkillsPage from './pages/SkillsPage';
 import FastTravelComponents from './components/FastTravelComponents';
+import HeroPage from './pages/HeroPage';
 
 // Dark and Light Theme Stuff:
 
@@ -35,19 +36,20 @@ function App() {
           <div id='origin' className=""></div>
           <NavbarComponent />
           <Home />
-          <HeroComponent />
+          <HeroPage />
           <About />
           <AboutPage />
-          <Résumé />
-          <RésuméPage />
           <Skills />
           <SkillsPage />
+          <Résumé />
+          <RésuméPage />
           <Portfolio />
           <ProjectsPage />
           <Testimonials />
           <TestimonialsPage />
           <ContactMe />
           <ContactPage />
+          {/* <HeroComponent /> */}
           <FooterComponent />
           <FastTravelComponents />
         </div>

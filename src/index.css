@@ -109,7 +109,13 @@
 }
 
 #light #hero_pic_background {
-  background-color: #FAFAFA;
+  background-color: #fafafa00;
+  border-radius: 5px;
+}
+
+#light #hero_pic_background:hover {
+  background-color: #FFFFFF;  
+  transition: 0.3s;
 }
 
 #dark #hero {
@@ -123,7 +129,13 @@
 }
 
 #dark #hero_pic_background {
-  background-color: rgb(207, 206, 224);
+  background-color: rgba(56, 54, 54, 0);
+  border-radius: 5px;
+}
+
+#dark #hero_pic_background:hover {
+  background-color: #000000;  
+  transition: 0.3s;
 }
 
 /** About Page Starts Here */
