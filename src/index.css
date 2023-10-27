@@ -5,6 +5,14 @@
   height: 50.75px;
 }
 
+#light #navbar-background {
+  background-color: #FFFFFF;
+}
+
+#dark #navbar-background {
+  background-color: #000000;
+}
+
 /** Glassmorphic Component Starts Here */
 
 #light #glassmorphic {
@@ -197,8 +205,7 @@
   * Created with https://www.css-gradient.com
   * Gradient link: https://www.css-gradient.com/?c1=d3d2df&c2=ffffff&gt=l&gd=dcr
   */
-  background: #D3D2DF;
-  background: linear-gradient(270deg, #D3D2DF, #FFFFFF);
+  background: #FAFAFA;
   color: rgb(73, 73, 73);
 }
 #dark #swiper-slide {

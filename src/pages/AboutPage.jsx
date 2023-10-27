@@ -7,9 +7,9 @@ import { images } from '../constants';
 const AboutPage = () => {
   return (
     <>
-      <section class="mx-6 text-gray-800">
-        <div id="innards" class="block rounded-lg shadow-lg bg-white">
-          <div class="flex flex-wrap items-center">
+      <section class="text-gray-800">
+        <div id="innards" class="block shadow-lg bg-white">
+          <div class="mx-6 flex flex-wrap items-center">
             <div class="hidden lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-6/12">
               <img src={ images.grs4} alt="PC"
                 class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />

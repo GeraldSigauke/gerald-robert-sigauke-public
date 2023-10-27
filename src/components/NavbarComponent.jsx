@@ -12,7 +12,7 @@ const NavbarComponent = () => {
 
   return (
     // fixed top-0 z-50
-    <nav id='glassmorphic' className="text-[#2c5282] w-full shadow">
+    <nav id='navbar-background' className="text-[#2c5282] w-full shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">

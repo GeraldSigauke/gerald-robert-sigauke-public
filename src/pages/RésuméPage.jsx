@@ -33,9 +33,9 @@ const ExperienceDetails = ({ position, company, companyLink, time, address, work
 const RésuméPage = () => {
   return (
     <>
-      <section className='mx-6 text-gray-800'>
-        <div id="innards" class="block rounded-lg shadow-lg">
-              <div class="flex flex-wrap items-center">
+      <section className='text-gray-800'>
+        <div id="innards" class="block shadow-lg">
+              <div class="mx-6 flex flex-wrap items-center">
                 <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-6/12">
                   <div class="px-6 py-12 md:px-12">
                     <h2 class="text-2xl font-bold mb-4 text-gray-500">Tertiary <u class="text-[#2c5282]">Education</u></h2>
