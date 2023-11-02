@@ -56,7 +56,7 @@ const RésuméPage = () => {
                           <EducationDetails 
                             degree="Bachelors Degree in Computer Science"
                             university="University of the People"
-                            universityLink="https://wwww.uopeople.edu"
+                            universityLink="https://www.uopeople.edu"
                             time="2017-2022"
                             address="595 E. Colorado Blvd. Suite 623, Pasadena, CA 91101"
                             work="Relevent Coursework includes Programming Fundermentals, Programming 2, Databases 1, Databases 2, Web Programming 1, Web Programming 2, Software Engineering 1, Software Engineering 2, Data Structures, Comparative Programming Languages, Information Retrieval and Mobile Applications"

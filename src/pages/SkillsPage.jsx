@@ -8,8 +8,8 @@ import { SkillBar } from 'react-skills';
 const SkillsPage = () => {
   return (
     <>
-      <section className='mx-6 text-gray-800'>
-        <div id="" class="block rounded-lg">
+      <section id="skills-page-background" className='px-6 text-gray-800'>
+        <div class="block rounded-lg">
           <div class="flex flex-wrap items-center">
             <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-6/12">
               <div class="px-6 py-12 md:px-12 text-center">
@@ -28,28 +28,28 @@ const SkillsPage = () => {
                 </div>
                 <div className="skills">
                   <div className="mb-2">
-                    <SkillBar name="HTML" level={90} color="red" />
+                    <SkillBar name="HTML" level={90} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="CSS" level={90} color="#264de4" />
+                    <SkillBar name="CSS" level={90} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Javascript" level={80} color="#61DBFB" />
+                    <SkillBar name="Javascript" level={80} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="SQL" level={50} color="#00758f" />
+                    <SkillBar name="SQL" level={50} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="PHP" level={50} color="#474a8a" />
+                    <SkillBar name="PHP" level={50} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Python" level={50} color="#4b8bbe" />
+                    <SkillBar name="Python" level={50} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Java" level={50} color="#f89820" />
+                    <SkillBar name="Java" level={50} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Typescript" level={25} color="#007acc" />
+                    <SkillBar name="Typescript" level={25} color="#2c5282" />
                   </div>
                 </div>
 
@@ -73,28 +73,28 @@ const SkillsPage = () => {
                 </div>
                 <div className="skills">
                   <div className="mb-2">
-                    <SkillBar name="Mongo DB" level={60} color="#4db33d" />
+                    <SkillBar name="Mongo DB" level={60} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Express Js" level={50} color="#3c873a" />
+                    <SkillBar name="Express Js" level={50} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="React Js" level={70} color="#000080" />
+                    <SkillBar name="React Js" level={70} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Node Js" level={50} color="#303030" />
+                    <SkillBar name="Node Js" level={50} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Tailwind CSS" level={85} color="#667eea" />
+                    <SkillBar name="Tailwind CSS" level={85} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="React Native" level={55} color="#00ffff" />
+                    <SkillBar name="React Native" level={55} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="SCSS" level={50} color="#ff69b4" />
+                    <SkillBar name="SCSS" level={50} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Bootstrap" level={50} color="#3b71ca" />
+                    <SkillBar name="Bootstrap" level={50} color="#2c5282" />
                   </div>
                 </div>
 

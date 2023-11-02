@@ -20,8 +20,8 @@ const ProjectsPage = () => {
 
   return (
     <>
-        <section class="mx-6 mt-12 text-center">
-          <h2 class="text-3xl font-bold mb-5 text-center">
+        <section id="portfolio-page-background" class="px-6 pt-12 pb-12 text-center">
+          <h2 class="text-3xl font-bold mb-5 text-center text-gray-500">
             Projects I am <u class="text-[#2c5282]">proud</u> of
           </h2>
 

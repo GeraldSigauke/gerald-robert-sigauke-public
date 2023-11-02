@@ -30,7 +30,7 @@ const TestimonialsPage = () => {
   return (
     <>
       {/* <!-- Container for demo purpose --> */}
-      <div class="mt-12 px-6 mx-auto">
+      <div id="testimonials-page-background" class="pt-12 px-6 mx-auto">
 
         <section class="mb-0 text-gray-700 text-center">
 
@@ -267,7 +267,7 @@ const TestimonialsPage = () => {
             
           </Swiper>
 
-          <div className="my-12">
+          <div className="mt-6 pb-12">
             <Marquee 
               className=""
               style={{ display: "flex" }}

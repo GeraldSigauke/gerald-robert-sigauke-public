@@ -1,3 +1,52 @@
+:root{
+  --firstTextColor-light: #2C5282;
+  --secondTextColor-light: #55554d;
+  --thirdTextColor-light: #000000;
+  --fourthTextColor-light: #ffffff;
+  --firstBgColor-light: #FFFFFF;
+  --secondBgColor-light: #2C5282;
+  --thirdBgColor-light: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1579%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(235%2c 241%2c 254%2c 1)'%3e%3c/rect%3e%3cpath d='M390.2802794771123 318.30660910356L315.6740171108695 410.2583524746931 417.61149842731015 428.23268077624664z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1294.874279525406 362.91809461568823L1245.9658151278463 266.92982858091267 1149.9775490930706 315.8382929784725 1198.8860134906306 411.8265590132481z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M585.1384518268864 99.96561096084747L500.50312288130635-20.906165372745704 464.2666754932932 184.60093990642747z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M691.976%2c543.765C742.819%2c543.98%2c796.98%2c529.624%2c821.667%2c485.176C845.849%2c441.637%2c828.547%2c388.853%2c801.095%2c347.298C776.719%2c310.398%2c736.199%2c289.203%2c691.976%2c288.853C647.079%2c288.497%2c604.411%2c307.98%2c579.82%2c345.545C552.538%2c387.22%2c539.639%2c440.736%2c564.169%2c484.088C588.985%2c527.947%2c641.583%2c543.552%2c691.976%2c543.765' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M87.24132985288546 188.28337408995662L197.69737748597797 150.2503068350443 49.20826259797314 77.82732645686411z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M528.0139666016113 38.012670655591556L519.318480297278 99.88427062685116 616.4736234063341 81.99170009772128z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1579'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  --fourthBgColor-light: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1144%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(235%2c 241%2c 254%2c 1)'%3e%3c/rect%3e%3cpath d='M2016 1080L0 1080 L0 374.28Q120.85 335.13%2c 160 455.98Q192.51 328.49%2c 320 361Q355.48 300.48%2c 416 335.95Q443.55 267.5%2c 512 295.04Q550.74 237.78%2c 608 276.52Q688.13 260.64%2c 704 340.77Q812.9 353.67%2c 800 462.57Q761.04 263.61%2c 960 224.65Q1052.02 220.67%2c 1056 312.68Q1184.07 280.75%2c 1216 408.81Q1334.22 367.03%2c 1376 485.25Q1413.51 426.76%2c 1472 464.28Q1539.79 436.06%2c 1568 503.85Q1610.9 450.75%2c 1664 493.65Q1652.38 386.02%2c 1760 374.4Q1832.31 286.7%2c 1920 359.01Q1905.4 248.41%2c 2016 233.81z' fill='rgba(196%2c 216%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M2016 1080L0 1080 L0 713.95Q29.15 583.11%2c 160 612.26Q216.01 508.27%2c 320 564.28Q360.52 444.8%2c 480 485.33Q542.11 387.44%2c 640 449.55Q714.53 428.08%2c 736 502.6Q808.19 478.79%2c 832 550.98Q898.28 521.26%2c 928 587.55Q1053.66 553.21%2c 1088 678.88Q1126.7 621.58%2c 1184 660.27Q1290.65 606.92%2c 1344 713.58Q1378.55 652.13%2c 1440 686.67Q1435.71 586.38%2c 1536 582.09Q1573.55 459.63%2c 1696 497.18Q1783.11 424.28%2c 1856 511.39Q1975.12 470.51%2c 2016 589.63z' fill='rgba(214%2c 229%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1984 1080L0 1080 L0 657.02Q97.45 594.47%2c 160 691.93Q295.73 731.66%2c 256 867.39Q236.08 687.47%2c 416 667.55Q553.56 709.11%2c 512 846.66Q489.75 728.41%2c 608 706.16Q639.4 641.56%2c 704 672.96Q828.46 637.42%2c 864 761.89Q904.04 705.93%2c 960 745.97Q1084.6 710.57%2c 1120 835.17Q1248.54 803.71%2c 1280 932.26Q1314.04 870.3%2c 1376 904.34Q1354.83 723.17%2c 1536 702Q1557.17 627.17%2c 1632 648.35Q1688.94 609.29%2c 1728 666.23Q1842.37 620.6%2c 1888 734.97Q1972.97 723.94%2c 1984 808.92z' fill='rgba(240%2c 247%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1984 1080L0 1080 L0 913.09Q114.25 931.34%2c 96 1045.59Q215.18 1004.77%2c 256 1123.95Q286.13 1058.08%2c 352 1088.21Q352.55 992.76%2c 448 993.31Q504.23 889.53%2c 608 945.76Q718.92 896.68%2c 768 1007.61Q847.76 991.38%2c 864 1071.14Q919.39 966.54%2c 1024 1021.93Q1078.53 980.46%2c 1120 1035Q1238.55 993.55%2c 1280 1112.11Q1303.53 975.64%2c 1440 999.17Q1494.1 957.27%2c 1536 1011.37Q1611.91 991.28%2c 1632 1067.19Q1633.72 908.91%2c 1792 910.64Q1832.68 855.33%2c 1888 896.01Q1930.14 842.15%2c 1984 884.29z' fill='rgba(232%2c 240%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1144'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  --fifthBgColor-light: rgba(196, 216, 255, 1);
+  --sixthBgColor-light:#FAFAFA;
+  --seventhBgColor-light: #F9FBFF;
+
+  --firstTextColor-dark:#2c5282;
+  --secondTextColor-dark:#bdbdbd;
+  --thirdTextColor-dark:#9e9e9e;
+  --fourthTextColor-dark:#000000;
+  --firstBgColor-dark: #000000;
+  --secondBgColor-dark: #2C5282;
+  --thirdBgColor-dark: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1578%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(1%2c 0%2c 15%2c 1)'%3e%3c/rect%3e%3cpath d='M390.2802794771123 318.30660910356L315.6740171108695 410.2583524746931 417.61149842731015 428.23268077624664z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1294.874279525406 362.91809461568823L1245.9658151278463 266.92982858091267 1149.9775490930706 315.8382929784725 1198.8860134906306 411.8265590132481z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M585.1384518268864 99.96561096084747L500.50312288130635-20.906165372745704 464.2666754932932 184.60093990642747z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M691.976%2c543.765C742.819%2c543.98%2c796.98%2c529.624%2c821.667%2c485.176C845.849%2c441.637%2c828.547%2c388.853%2c801.095%2c347.298C776.719%2c310.398%2c736.199%2c289.203%2c691.976%2c288.853C647.079%2c288.497%2c604.411%2c307.98%2c579.82%2c345.545C552.538%2c387.22%2c539.639%2c440.736%2c564.169%2c484.088C588.985%2c527.947%2c641.583%2c543.552%2c691.976%2c543.765' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M87.24132985288546 188.28337408995662L197.69737748597797 150.2503068350443 49.20826259797314 77.82732645686411z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M528.0139666016113 38.012670655591556L519.318480297278 99.88427062685116 616.4736234063341 81.99170009772128z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1578'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  --fourthBgColor-dark: #1F2937;
+  --fifthBgColor-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='40' height='40' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(135)'%3E%3Crect width='100%25' height='100%25' fill='rgba(10, 10, 10,1)'/%3E%3Ccircle cx='40' cy='20' r='0.25' fill='rgba(44, 82, 130,1)'/%3E%3Ccircle cx='0' cy='20' r='1' fill='rgba(74, 85, 104,1)'/%3E%3Ccircle cx='40' cy='20' r='1' fill='rgba(74, 85, 104,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+  --sixthBgColor-dark: #101010;
+  --seventhBgColor-dark: #010101;
+
+  --mainTextColor:var(--mainTextColor-dark);
+  --secondTextColor:var(--secondTextColor-dark);
+  --mainLinkColor:var(--mainLinkColor-dark);
+  --mainBorderColor:var(--mainBorderColor-dark);
+  --mainBgColor:var(--mainBgColor-dark);
+
+}
+
+@tailwind base;
+@tailwind Pages;
+@tailwind utilities;
+
+#light {
+
+background-image: var(--firstBgColor-light)
+  
+}
+
+#dark {
+
+  background: var(--fifthBgColor-dark)
+
+}
+
 /* Navbar Component Starts Here */
 
 #logo {
@@ -6,11 +55,11 @@
 }
 
 #light #navbar-background {
-  background-color: #FFFFFF;
+  background-color: var(--firstBgColor-light);
 }
 
 #dark #navbar-background {
-  background-color: #000000;
+  background-color: var(--firstBgColor-dark);
 }
 
 /** Glassmorphic Component Starts Here */
@@ -36,45 +85,45 @@
 
 #light #ft-inner {
   border-radius: 50%;
-  background-color: #2C5282; 
+  background-color: var(--secondBgColor-light); 
 }
 
 #dark #ft-inner {
   border-radius: 50%;
-  background-color: #2C5282; 
+  background-color: var(--secondBgColor-dark); 
 }
 
 #light #ft-inner:hover {
   border-radius: 50%;
-  background-color: #FFFFFF;  
+  background-color: var(--firstBgColor-light);  
   transition: 0.3s;
 }
 
 #dark #ft-inner:hover {
   border-radius: 50%;
-  background-color: #000000;  
+  background-color: var(--firstBgColor-dark);  
   transition: 0.3s;
 }
 
 #light #ft-outer {
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: var(--firstBgColor-light);
 }
 
 #dark #ft-outer {
   border-radius: 50%;
-  background-color: #000000;
+  background-color: var(--firstBgColor-dark);
 }
 
 #light #ft-outer:hover {
   border-radius: 50%;
-  background-color: #2C5282;  
+  background-color: var(--secondBgColor-light);  
   transition: 0.3s;
 }
 
 #dark #ft-outer:hover {
   border-radius: 50%;
-  background-color:   #2C5282;
+  background-color:   var(--secondBgColor-dark);
   transition: 0.3s;
 }
 
@@ -102,18 +151,31 @@
   from { width: 0 }
 }
 
-/** Hero Component Ends Here */
+#light #blue-button{
+  background-color: var(--secondBgColor-light);
+  color: #FFFFFF;
+}
+
+#light #white-button{
+  background-color: var(--firstBgColor-light);
+  color: #2c5282;
+}
+
+#light #blue-button:hover{
+  background-color: var(--firstBgColor-light);
+  color: #2c5282;
+  transition: 0.3s;
+}
+
+#light #white-button:hover{
+  background-color: var(--secondBgColor-light);
+  color: #FFFFFF;
+  transition: 0.3s;
+}
 
 #light #hero {
 
-  /*
-  * Created with https://www.css-gradient.com
-  * Gradient link: https://www.css-gradient.com/?c1=d3d2df&c2=ffffff&gt=l&gd=dcr
-  */
-  background: #D3D2DF;
-  background: linear-gradient(270deg, #D3D2DF, #FFFFFF);
-  color: rgb(73, 73, 73);
-
+background-image: var(--thirdBgColor-light)
 }
 
 #light #hero_pic_background {
@@ -121,19 +183,15 @@
   border-radius: 5px;
 }
 
-#light #hero_pic_background:hover {
+/* #light #hero_pic_background:hover {
   background-color: #FFFFFF;  
   transition: 0.3s;
-}
+} */
 
 #dark #hero {
-  /*
-  * Created with https://www.css-gradient.com
-  * Gradient link: https://www.css-gradient.com/?c1=101010&c2=010101&gt=l&gd=dcr
-  */
-  background: #101010;
-  background: linear-gradient(270deg, #101010, #010101);
-  color: gray;
+
+background-image: var(--thirdBgColor-dark);
+
 }
 
 #dark #hero_pic_background {
@@ -141,24 +199,45 @@
   border-radius: 5px;
 }
 
-#dark #hero_pic_background:hover {
+/* #dark #hero_pic_background:hover {
   background-color: #000000;  
   transition: 0.3s;
-}
+} */
+
+/** Hero Component Ends Here */
+
+
 
 /** About Page Starts Here */
 
 #light #content {
   color: rgb(73, 73, 73);
+  background-color: var(--firstBgColor-light);
 }
 
 #dark #content {
-  background-color: rgb(11, 11, 11);
+  background-color: var(--fourthBgColor-dark);
   color: gray;
   border-radius: 2.5%;
 }
 
 /** About Page Ends Here */
+
+/** Skills Page Starts Here */
+
+#light #skills-page-background {
+
+background-image: var(--fourthBgColor-light)
+  
+}
+
+#dark #skills-page-background {
+
+  background: var(--fifthBgColor-dark)
+  
+}
+
+/** Skills Page Ends Here */
 
 /** Résumé Page Starts Here */
 
@@ -166,7 +245,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #D3D2DF;
+  background-color: var(--fifthBgColor-light);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,25 +253,55 @@
 
 /** Résumé Page Ends Here */
 
-/** Skills Page Starts Here */
-
-
-
-/** Skills Page Ends Here */
-
 /** Portfolio Page Starts Here */
 
 #light #projects {
-  background-color: #ffffff;
+  background-color: var(--firstBgColor-light);
   color: rgb(73, 73, 73);
   border-radius: 2.5%;
 }
 
+#light #portfolio-page-background {
 
+background-image: var(--fourthBgColor-light)
+
+}
+
+#dark #portfolio-page-background {
+
+  background: var(--fifthBgColor-dark)  
+
+}
 
 /** Portfolio Page Ends Here */
 
+/** Project  Page Starts Here */
+
+.lp-innards .lp-img-2 {
+  display: none;
+}
+.lp-innards:hover .lp-img-1 {
+  display: none;
+}
+.lp-innards:hover .lp-img-2 {
+  display: block;
+}
+
+/** Project Page Ends Here */
+
 /** Testimonials Page Starts Here */
+
+#light #testimonials-page-background {
+
+background-color: var(--firstBgColor-light);
+
+}
+
+#dark #testimonials-page-background {
+
+  background: var(--fifthBgColor-dark)
+
+}
 
 #light #testimonials {
   color: rgb(73, 73, 73);
@@ -200,26 +309,26 @@
 }
 
 #light #swiper-slide {
-
   /*
   * Created with https://www.css-gradient.com
-  * Gradient link: https://www.css-gradient.com/?c1=d3d2df&c2=ffffff&gt=l&gd=dcr
+  * Gradient link: https://www.css-gradient.com/?c1=101010&c2=010101&gt=l&gd=dcr
   */
-  background: #FAFAFA;
-  color: rgb(73, 73, 73);
+  background: var(--sixthBgColor-light);
+  background: linear-gradient(270deg, var(--sixthBgColor-light), var(--seventhBgColor-light));
+  color: #FAFAFA;
 }
 #dark #swiper-slide {
   /*
   * Created with https://www.css-gradient.com
   * Gradient link: https://www.css-gradient.com/?c1=101010&c2=010101&gt=l&gd=dcr
   */
-  background: #101010;
-  background: linear-gradient(270deg, #101010, #010101);
+  background: var(--sixthBgColor-dark);
+  background: linear-gradient(270deg, var(--sixthBgColor-dark), var(--seventhBgColor-dark));
   color: gray;
   }
 
 body {
-  background-color: #000000;
+  background-color: var(--thirdBgColor-light);
 }
 .main {
   /* display: flex; */
@@ -281,7 +390,7 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 .swiper-pagination-bullet-active {
-  background-color: #ffffff !important;
+  background-color: var(--firstBgColor-light) !important;
   border: 2px solid #2c5282 !important;
   /* padding: 1px !important; */
   border-radius: 1px !important;
@@ -291,7 +400,7 @@ body {
   /* padding-right: 5px !important; */
 }
 .swiper-pagination-bullet {
-  background-color: #ffffff !important;
+  background-color: var(--firstBgColor-light) !important;
   border: 2px solid #2c5282 !important;
   /* padding: 1px !important; */
   border-radius: 1px !important;
@@ -302,14 +411,13 @@ body {
 }
 
 #dark #testimonials {
-  /*
-  * Created with https://www.css-gradient.com
-  * Gradient link: https://www.css-gradient.com/?c1=101010&c2=010101&gt=l&gd=dcr
-  */
-  background: #101010;
-  background: linear-gradient(270deg, #101010, #010101);
-  color: gray;
-  border-radius: 2.5%;
+
+  background: var(--fifthBgColor-dark)  
+
+}
+
+#grayscale {
+  filter: grayscale(100%);
 }
 
 /** Testimonials Page Ends Here */
@@ -318,35 +426,19 @@ body {
 
 #light #contactus {
   color: rgb(73, 73, 73);
+
+background-image: var( --fourthBgColor-light);
+
 }
 
 #dark #contactus {
-  /*
-  * Created with https://www.css-gradient.com
-  * Gradient link: https://www.css-gradient.com/?c1=101010&c2=010101&gt=l&gd=dcr
-  */
-  background: #101010;
-  background: linear-gradient(270deg, #101010, #010101);
-  background-color: rgb(0, 0, 0);
+
+  background: var(--fifthBgColor-dark)  
+
 }
 
-/** Projects  Page Starts Here */
 
-.lp-innards .lp-img-2 {
-  display: none;
-}
-.lp-innards:hover .lp-img-1 {
-  display: none;
-}
-.lp-innards:hover .lp-img-2 {
-  display: block;
-}
 
-/** Projects Page Ends Here */
-
-@tailwind base;
-@tailwind Pages;
-@tailwind utilities;
 
 #d2 {
   background-color: rgba(251, 251, 251, 0.15);
@@ -362,43 +454,6 @@ body {
 }
 
 /* lg Dark and Light Mode */
-
-#grayscale {
-  filter: grayscale(100%);
-}
-
-#light {
-
-  /*
-  * Created with https://www.css-gradient.com
-  * Gradient link: https://www.css-gradient.com/?c1=d3d2df&c2=ffffff&gt=l&gd=dcr
-  */
-  background: #D3D2DF;
-  background: linear-gradient(270deg, #D3D2DF, #FFFFFF);
-  color: rgb(73, 73, 73);
-}
-
-#light #blue-button{
-  background-color: #2c5282;
-  color: #FFFFFF;
-}
-
-#light #white-button{
-  background-color: #FFFFFF;
-  color: #2c5282;
-}
-
-#light #blue-button:hover{
-  background-color: #FFFFFF;
-  color: #2c5282;
-  transition: 0.3s;
-}
-
-#light #white-button:hover{
-  background-color: #2c5282;
-  color: #FFFFFF;
-  transition: 0.3s;
-}
 
 
 
@@ -430,15 +485,6 @@ body {
 
 
 
-#dark {
-  /*
-  * Created with https://www.css-gradient.com
-  * Gradient link: https://www.css-gradient.com/?c1=101010&c2=010101&gt=l&gd=dcr
-  */
-  background: #101010;
-  background: linear-gradient(270deg, #101010, #010101);
-  color: gray;
-}
 
 #dark #white-button{
   background-color: #000;
