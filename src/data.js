@@ -44,16 +44,16 @@ export const ps = [
     url: 'https://hazyviewpetsindistress.netlify.app/',
     url2: '#!'
   },
-  {
-    id: 2,
-    img: images.soac,
-    img2: images.soac2,
-    title: 'OLIESTA AFTERSCHOOL CARE',
-    category: 'landingPages',
-    desc: 'A Landing Page For A Homework Assistance and Afterschool Care Business. I used React Js, Tailwind Css, Javascript, CSS, React Icons and FormSubmit. The GitHub repository for this project is private. You cannot access it.',
-    url: 'https://oliestaafterschoolcare.netlify.app/',
-    url2: '#!'
-  },
+  // {
+  //   id: 2,
+  //   img: images.soac,
+  //   img2: images.soac2,
+  //   title: 'OLIESTA AFTERSCHOOL CARE',
+  //   category: 'landingPages',
+  //   desc: 'A Landing Page For A Homework Assistance and Afterschool Care Business. I used React Js, Tailwind Css, Javascript, CSS, React Icons and FormSubmit. The GitHub repository for this project is private. You cannot access it.',
+  //   url: 'https://oliestaafterschoolcare.netlify.app/',
+  //   url2: '#!'
+  // },
   {
     id: 3,
     img: images.sos,
@@ -74,26 +74,26 @@ export const ps = [
     url: 'https://geraldsigauke.netlify.app/',
     url2: '#!'
   },
-  {
-    id: 5,
-    img: images.oa1,
-    img2: images.oa2,
-    title: 'OLIESTA ADMIN',
-    category: 'anyOtherWebApps',
-    desc: 'A dashboard or an admin portion for a web app. I used React Js, Material UI, React Circular Progreesbar, Recharts, Javascript and SASS. The GitHub repository for this project is public. You can access it.',
-    url: 'https://oliestaadmin.netlify.app/',
-    url2: 'https://github.com/GeraldSigauke/admin'
-  },
-  {
-    id: 6,
-    img: images.sof,
-    img2: images.sof2,
-    title: 'OLIESTA FASHIONS',
-    category: 'ecommerceSites',
-    desc: 'The frontend portion for a web app. I used React Js, Bootstrap 5, React-Icons, React-Skills and React-Fast-Marquee. The GitHub repository for this project is public. You can access it.',
-    url: 'https://oliestafashions.netlify.app/',
-    url2: 'https://github.com/GeraldSigauke/oliesta-fashions-master'
-  },
+  // {
+  //   id: 5,
+  //   img: images.oa1,
+  //   img2: images.oa2,
+  //   title: 'OLIESTA ADMIN',
+  //   category: 'anyOtherWebApps',
+  //   desc: 'A dashboard or an admin portion for a web app. I used React Js, Material UI, React Circular Progreesbar, Recharts, Javascript and SASS. The GitHub repository for this project is public. You can access it.',
+  //   url: 'https://oliestaadmin.netlify.app/',
+  //   url2: 'https://github.com/GeraldSigauke/admin'
+  // },
+  // {
+  //   id: 6,
+  //   img: images.sof,
+  //   img2: images.sof2,
+  //   title: 'OLIESTA FASHIONS',
+  //   category: 'ecommerceSites',
+  //   desc: 'The frontend portion for a web app. I used React Js, Bootstrap 5, React-Icons, React-Skills and React-Fast-Marquee. The GitHub repository for this project is public. You can access it.',
+  //   url: 'https://oliestafashions.netlify.app/',
+  //   url2: 'https://github.com/GeraldSigauke/oliesta-fashions-master'
+  // },
 ];
 
 export const testimonials = [

@@ -24,7 +24,7 @@ const HeroPage = () => {
                     class="inline-block px-7 py-3 mr-2 bg-[#2c5282] text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-white hover:text-[#2c5282] hover:shadow-lg focus:bg-white focus:text-[#2c5282] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#2c5282] active:text-white active:shadow-lg transition duration-150 ease-in-out"
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
-                    href="https://grsresume.netlify.app/"
+                    href="https://geraldsigauke.github.io/gerald-robert-sigauke-cv/"
                     target="blank"
                     role="button"
                   >

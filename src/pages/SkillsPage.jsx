@@ -28,28 +28,28 @@ const SkillsPage = () => {
                 </div>
                 <div className="skills">
                   <div className="mb-2">
-                    <SkillBar name="HTML" level={90} color="#2c5282" />
+                    <SkillBar name="HTML" level={100} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="CSS" level={90} color="#2c5282" />
+                    <SkillBar name="CSS" level={100} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Javascript" level={80} color="#2c5282" />
+                    <SkillBar name="Javascript" level={90} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="SQL" level={50} color="#2c5282" />
+                    <SkillBar name="Typescript" level={95} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="PHP" level={50} color="#2c5282" />
+                    <SkillBar name="SQL" level={75} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Python" level={50} color="#2c5282" />
+                    <SkillBar name="PHP" level={75} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Java" level={50} color="#2c5282" />
+                    <SkillBar name="Python" level={75} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Typescript" level={25} color="#2c5282" />
+                    <SkillBar name="Java" level={75} color="#2c5282" />
                   </div>
                 </div>
 
@@ -73,28 +73,28 @@ const SkillsPage = () => {
                 </div>
                 <div className="skills">
                   <div className="mb-2">
-                    <SkillBar name="Mongo DB" level={60} color="#2c5282" />
+                    <SkillBar name="Mongo DB" level={90} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Express Js" level={50} color="#2c5282" />
+                    <SkillBar name="Express Js" level={80} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="React Js" level={70} color="#2c5282" />
+                    <SkillBar name="React Js" level={90} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Node Js" level={50} color="#2c5282" />
+                    <SkillBar name="Node Js" level={80} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Tailwind CSS" level={85} color="#2c5282" />
+                    <SkillBar name="Tailwind CSS" level={95} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="React Native" level={55} color="#2c5282" />
+                    <SkillBar name="React Native" level={80} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="SCSS" level={50} color="#2c5282" />
+                    <SkillBar name="SCSS" level={70} color="#2c5282" />
                   </div>
                   <div className="mb-2">
-                    <SkillBar name="Bootstrap" level={50} color="#2c5282" />
+                    <SkillBar name="Bootstrap" level={60} color="#2c5282" />
                   </div>
                 </div>
 
